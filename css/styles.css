@@ -203,13 +203,13 @@ header .header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -451,6 +451,11 @@ div .work {
   justify-content: center;
 }
 
+.client-icon {
+  width: 106px;
+  height: 60px;
+}
+
 .title-clients {
   font-weight: 700;
   font-size: 36px;
@@ -469,6 +474,7 @@ div .work {
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
+  height: 100%;
 }
 
 .clients-item {
@@ -589,7 +595,7 @@ footer .container {
 }
 
 .social-join-link:hover,
-.msocial-join-link:focus {
+.social-join-link:focus {
   background: #2196f3;
 }
 
